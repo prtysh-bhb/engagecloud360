@@ -90,7 +90,7 @@ export default function PostsPage() {
                     <p className="text-slate-900 mb-3">{post.content}</p>
                     <div className="flex items-center space-x-2 mb-2">
                       {post.platforms.map((platform, i) => (
-                        <span key={i} className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-medium">
+                        <span key={i} className="px-2 py-1 bg-coral-100 text-coral-700 rounded text-xs font-medium">
                           {platform}
                         </span>
                       ))}
@@ -122,7 +122,7 @@ export default function PostsPage() {
             {recentPosts.map((post, i) => (
               <div key={i} className="p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-sm font-medium">
+                  <span className="px-2 py-1 bg-coral-100 text-coral-700 rounded text-sm font-medium">
                     {post.platform}
                   </span>
                   <span className="text-sm text-slate-500">{post.posted}</span>

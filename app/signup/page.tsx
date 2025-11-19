@@ -3,12 +3,12 @@ import { Mail, Lock, User, Building, ArrowRight } from 'lucide-react'
 
 export default function SignupPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-blue-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-coral-50 flex items-center justify-center p-4">
       <div className="max-w-md w-full">
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-blue-600 rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-coral-600 rounded-xl flex items-center justify-center">
               <span className="text-2xl font-bold text-white">E</span>
             </div>
             <span className="text-2xl font-bold text-slate-900">EngageCloud360</span>
@@ -120,7 +120,7 @@ export default function SignupPage() {
 
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-primary-600 to-blue-600 text-white py-3 rounded-lg hover:from-primary-700 hover:to-blue-700 font-semibold flex items-center justify-center space-x-2 transition-all"
+              className="w-full bg-gradient-to-r from-primary-600 to-coral-600 text-white py-3 rounded-lg hover:from-primary-700 hover:to-coral-700 font-semibold flex items-center justify-center space-x-2 transition-all"
             >
               <span>Create Account</span>
               <ArrowRight size={20} />

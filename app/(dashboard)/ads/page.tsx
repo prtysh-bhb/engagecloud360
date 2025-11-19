@@ -78,7 +78,7 @@ export default function AdsPage() {
               <p className="text-3xl font-bold text-slate-900">590K</p>
               <p className="text-sm text-green-600 mt-2">+12.5% vs last month</p>
             </div>
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-lg flex items-center justify-center">
               <Eye size={24} />
             </div>
           </div>

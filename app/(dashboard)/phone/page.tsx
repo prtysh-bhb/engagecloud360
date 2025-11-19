@@ -32,7 +32,7 @@ export default function PhonePage() {
               <p className="text-3xl font-bold text-slate-900 mt-2">156</p>
               <p className="text-sm text-green-600 mt-2">+18 this week</p>
             </div>
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-lg flex items-center justify-center">
               <PhoneCall size={24} />
             </div>
           </div>
@@ -143,7 +143,7 @@ export default function PhonePage() {
                 <div className="flex items-start justify-between">
                   <div className="flex items-start space-x-4">
                     <div className={`w-12 h-12 rounded-lg flex items-center justify-center ${
-                      call.type === 'incoming' ? 'bg-green-100 text-green-600' : 'bg-blue-100 text-blue-600'
+                      call.type === 'incoming' ? 'bg-green-100 text-green-600' : 'bg-coral-100 text-coral-600'
                     }`}>
                       {call.type === 'incoming' ? <PhoneIncoming size={20} /> : <PhoneOutgoing size={20} />}
                     </div>

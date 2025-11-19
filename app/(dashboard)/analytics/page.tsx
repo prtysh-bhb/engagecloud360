@@ -10,9 +10,9 @@ export default function AnalyticsPage() {
 
   const channelPerformance = [
     { channel: 'WhatsApp', messages: 1234, responseRate: 96, avgTime: '3.2m', color: 'bg-green-500' },
-    { channel: 'Email', messages: 856, responseRate: 92, avgTime: '12.4m', color: 'bg-blue-500' },
+    { channel: 'Email', messages: 856, responseRate: 92, avgTime: '12.4m', color: 'bg-coral-500' },
     { channel: 'Instagram', messages: 654, responseRate: 88, avgTime: '5.8m', color: 'bg-purple-500' },
-    { channel: 'Messenger', messages: 423, responseRate: 94, avgTime: '4.1m', color: 'bg-blue-600' },
+    { channel: 'Messenger', messages: 423, responseRate: 94, avgTime: '4.1m', color: 'bg-coral-600' },
   ]
 
   return (
@@ -60,7 +60,7 @@ export default function AnalyticsPage() {
           <div className="h-64 flex items-end justify-between space-x-2">
             {[65, 78, 82, 71, 85, 90, 88].map((height, i) => (
               <div key={i} className="flex-1 flex flex-col items-center">
-                <div className="w-full bg-gradient-to-t from-primary-600 to-blue-500 rounded-t-lg hover:from-primary-700 hover:to-blue-600 transition-all cursor-pointer" style={{ height: `${height}%` }} />
+                <div className="w-full bg-gradient-to-t from-primary-600 to-coral-500 rounded-t-lg hover:from-primary-700 hover:to-coral-600 transition-all cursor-pointer" style={{ height: `${height}%` }} />
                 <span className="text-xs text-slate-500 mt-2">
                   {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'][i]}
                 </span>
@@ -77,7 +77,7 @@ export default function AnalyticsPage() {
           </div>
           <div className="space-y-4">
             {[
-              { source: 'Direct', percentage: 42, color: 'bg-blue-500' },
+              { source: 'Direct', percentage: 42, color: 'bg-coral-500' },
               { source: 'Organic Search', percentage: 28, color: 'bg-green-500' },
               { source: 'Social Media', percentage: 18, color: 'bg-purple-500' },
               { source: 'Referral', percentage: 12, color: 'bg-orange-500' },
@@ -167,7 +167,7 @@ export default function AnalyticsPage() {
         </div>
 
         {/* Customer Satisfaction */}
-        <div className="bg-gradient-to-br from-primary-600 to-blue-600 rounded-xl shadow-sm p-6 text-white">
+        <div className="bg-gradient-to-br from-primary-600 to-coral-600 rounded-xl shadow-sm p-6 text-white">
           <h3 className="text-lg font-semibold mb-4">Customer Satisfaction</h3>
           <div className="flex items-center justify-center py-6">
             <div className="text-center">

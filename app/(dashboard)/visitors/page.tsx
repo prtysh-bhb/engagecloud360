@@ -62,7 +62,7 @@ export default function VisitorsPage() {
               <p className="text-3xl font-bold text-slate-900 mt-2">12,456</p>
               <p className="text-sm text-green-600 mt-2">+15.3% vs last week</p>
             </div>
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-lg flex items-center justify-center">
               <Users size={24} />
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function VisitorsPage() {
           <div className="flex items-center justify-center py-8">
             <div className="text-center">
               <div className="relative inline-block">
-                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-500 to-blue-600 flex items-center justify-center">
+                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-500 to-coral-600 flex items-center justify-center">
                   <span className="text-5xl font-bold text-white">24</span>
                 </div>
                 <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full animate-pulse"></div>
@@ -196,7 +196,7 @@ export default function VisitorsPage() {
                       <span className="text-lg font-bold text-slate-900">{visitor.score}</span>
                       <div className="ml-2 w-16 h-2 bg-slate-200 rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-gradient-to-r from-green-500 to-blue-500"
+                          className="h-full bg-gradient-to-r from-green-500 to-coral-500"
                           style={{ width: `${visitor.score}%` }}
                         />
                       </div>

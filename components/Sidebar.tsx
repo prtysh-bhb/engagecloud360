@@ -100,7 +100,7 @@ export default function Sidebar() {
         <div className="p-4 border-t border-slate-800">
           <Link
             href="/pricing"
-            className="flex items-center space-x-3 px-4 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-blue-600 hover:from-primary-700 hover:to-blue-700 transition-all"
+            className="flex items-center space-x-3 px-4 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-coral-600 hover:from-primary-700 hover:to-coral-700 transition-all"
           >
             <DollarSign size={20} />
             <span className="font-medium">Upgrade Plan</span>
