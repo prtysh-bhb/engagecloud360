@@ -47,7 +47,7 @@ export default function AIAssistantPage() {
       <div className="grid lg:grid-cols-3 gap-6">
         {/* Chat Interface */}
         <div className="lg:col-span-2 bg-white rounded-xl shadow-sm border border-slate-200 flex flex-col h-[600px]">
-          <div className="p-6 border-b border-slate-200 bg-gradient-to-r from-primary-600 to-accent-600 rounded-t-xl">
+          <div className="p-6 border-b border-slate-200 bg-gradient-to-r bg-brand-600 rounded-t-xl">
             <div className="flex items-center space-x-3 text-white">
               <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
                 <Bot size={24} />
@@ -164,7 +164,7 @@ export default function AIAssistantPage() {
           </div>
 
           {/* Stats */}
-          <div className="bg-gradient-to-br from-primary-600 to-accent-600 rounded-xl shadow-sm p-6 text-white">
+          <div className="bg-gradient-to-br bg-brand-600 rounded-xl shadow-sm p-6 text-white">
             <div className="flex items-center space-x-2 mb-4">
               <Zap size={24} />
               <h3 className="text-lg font-semibold">AI Usage</h3>

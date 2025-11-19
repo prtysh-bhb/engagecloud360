@@ -60,7 +60,7 @@ export default function MediaPage() {
               <p className="text-sm text-slate-600">Total Assets</p>
               <p className="text-2xl font-bold text-slate-900 mt-1">1,247</p>
             </div>
-            <div className="w-12 h-12 bg-accent-100 text-accent-600 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center">
               <ImageIcon size={24} />
             </div>
           </div>

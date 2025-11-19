@@ -28,7 +28,7 @@ export default function Dashboard() {
           change="+12.5% from last week"
           changeType="positive"
           icon={MessageSquare}
-          iconColor="bg-accent-100 text-accent-600"
+          iconColor="bg-brand-100 text-brand-600"
         />
         <StatCard
           title="Active Conversations"
