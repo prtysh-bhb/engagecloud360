@@ -54,20 +54,20 @@ export default function Sidebar() {
       <aside
         className={`
           fixed lg:static inset-y-0 left-0 z-40
-          w-64 bg-slate-900 text-white
+          w-64 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white border-r border-slate-800/50
           transform transition-transform duration-200 ease-in-out
           ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
           flex flex-col
         `}
       >
-        <div className="p-6">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary-500 rounded-lg flex items-center justify-center">
+        <div className="p-6 border-b border-slate-800/50">
+          <Link href="/" className="flex items-center space-x-3">
+            <div className="w-11 h-11 bg-gradient-to-br from-primary-500 via-primary-600 to-accent-600 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/20">
               <span className="text-xl font-bold">E</span>
             </div>
             <div>
               <h1 className="text-xl font-bold">EngageCloud</h1>
-              <p className="text-xs text-slate-400">360</p>
+              <p className="text-xs text-accent-400 font-medium">360°</p>
             </div>
           </Link>
         </div>
@@ -82,11 +82,11 @@ export default function Sidebar() {
                 href={item.href}
                 onClick={() => setIsOpen(false)}
                 className={`
-                  flex items-center space-x-3 px-4 py-3 rounded-lg
-                  transition-colors duration-150
+                  flex items-center space-x-3 px-4 py-3 rounded-xl
+                  transition-all duration-200
                   ${isActive
-                    ? 'bg-primary-600 text-white'
-                    : 'text-slate-300 hover:bg-slate-800 hover:text-white'
+                    ? 'bg-gradient-to-r from-primary-600 to-primary-700 text-white shadow-lg shadow-primary-500/30'
+                    : 'text-slate-400 hover:bg-slate-800/50 hover:text-white'
                   }
                 `}
               >
@@ -97,13 +97,13 @@ export default function Sidebar() {
           })}
         </nav>
 
-        <div className="p-4 border-t border-slate-800">
+        <div className="p-4 border-t border-slate-800/50">
           <Link
             href="/pricing"
-            className="flex items-center space-x-3 px-4 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-coral-600 hover:from-primary-700 hover:to-coral-700 transition-all"
+            className="flex items-center justify-center space-x-2 px-4 py-3 rounded-xl bg-gradient-to-r from-accent-500 via-accent-600 to-accent-700 hover:from-accent-600 hover:to-accent-800 text-white font-semibold shadow-lg shadow-accent-500/30 transition-all hover:shadow-xl hover:shadow-accent-500/40"
           >
-            <DollarSign size={20} />
-            <span className="font-medium">Upgrade Plan</span>
+            <DollarSign size={18} />
+            <span>Upgrade to Pro</span>
           </Link>
         </div>
       </aside>

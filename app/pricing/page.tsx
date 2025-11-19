@@ -72,7 +72,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-coral-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-600 rounded-lg flex items-center justify-center">
                 <span className="text-xl font-bold text-white">E</span>
               </div>
               <span className="text-xl font-bold text-slate-900">EngageCloud360</span>
@@ -118,7 +118,7 @@ export default function PricingPage() {
               key={index}
               className={`rounded-2xl ${
                 plan.highlighted
-                  ? 'bg-gradient-to-br from-primary-600 to-coral-600 text-white shadow-2xl scale-105'
+                  ? 'bg-gradient-to-br from-primary-600 to-accent-600 text-white shadow-2xl scale-105'
                   : 'bg-white text-slate-900 shadow-lg border border-slate-200'
               } p-8 relative`}
             >
@@ -217,7 +217,7 @@ export default function PricingPage() {
 
       {/* CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="bg-gradient-to-r from-primary-600 to-coral-600 rounded-2xl shadow-xl p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl shadow-xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8 text-primary-100">
             Start your 14-day free trial today. No credit card required.
